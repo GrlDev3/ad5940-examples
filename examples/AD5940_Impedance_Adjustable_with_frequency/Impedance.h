@@ -41,6 +41,7 @@ typedef struct
   uint32_t NswitchSel;
   uint32_t TswitchSel;
   uint32_t PwrMod;              /* Control Chip power mode(LP/HP) */
+	uint32_t ExtRtia;							//set only when HstiaRtiaSel = HSTIARTIA_OPEN, added bc it created build error
   uint32_t HstiaRtiaSel;        /* Use internal RTIA, select from RTIA_INT_200, RTIA_INT_1K, RTIA_INT_5K, RTIA_INT_10K, RTIA_INT_20K, RTIA_INT_40K, RTIA_INT_80K, RTIA_INT_160K */
   uint32_t ExcitBufGain;        /* Select from  EXCTBUFGAIN_2, EXCTBUFGAIN_0P25 */     
   uint32_t HsDacGain;           /* Select from  HSDACGAIN_1, HSDACGAIN_0P2 */
