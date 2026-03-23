@@ -49,8 +49,8 @@
             <NotGenerated>0</NotGenerated>
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
-          <OutputDirectory>.\OUT\</OutputDirectory>
-          <OutputName>ADICUP3029</OutputName>
+          <OutputDirectory>.\OUT\Variations\</OutputDirectory>
+          <OutputName>ADICUP3029_800dvpp_200odr_dft2048_fifo4</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
